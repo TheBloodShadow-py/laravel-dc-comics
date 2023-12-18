@@ -14,9 +14,9 @@
             </div>
         </div>
         <div class="flex justify-center">
-            <button
+            <a href="{{ route('create') }}"
                 class="uppercase text-xs bg-blue-500 py-3 hover:bg-blue-600 transition-colors duration-300 px-14 rounded font-bold text-white">Create
-                New</button>
+                New</a>
         </div>
     </section>
 @endsection

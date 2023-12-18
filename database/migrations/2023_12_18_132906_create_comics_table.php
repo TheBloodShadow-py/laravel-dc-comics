@@ -18,10 +18,10 @@ return new class extends Migration
             $table->text('thumb');
             $table->string('price', 20);
             $table->string('series', 50);
-            $table->date('sale_date');
-            $table->string('type', 50);
-            $table->json('artists');
-            $table->json('writers');
+            $table->date('sale_date')->nullable();
+            $table->string('type', 50)->nullable()->default("comic book");
+            $table->json('artists')->nullable();
+            $table->json('writers')->nullable();
             $table->timestamps();
         });
     }
