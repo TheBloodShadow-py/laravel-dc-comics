@@ -10,8 +10,7 @@
     </head>
 
     <body>
-
-        <main>
+        <main class="bg-gray-900 w-full min-h-[100svh] overflow-y-hidden">
             @yield('content')
         </main>
 
