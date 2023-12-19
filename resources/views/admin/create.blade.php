@@ -25,7 +25,7 @@
                     <div class="flex items-center gap-4">
                         <input placeholder="Prezzo" name="price"
                             class="rounded w-[300px] focus-within:outline-none focus-visible:outline-none py-3 px-4 text-xs text-emerald-400"
-                            type="text">
+                            type="number" step="0.01">
                     </div>
                     <div class="flex items-center gap-4">
                         <input placeholder="Serie" name="series"
