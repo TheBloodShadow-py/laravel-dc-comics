@@ -48,7 +48,7 @@
                 </li>
             </ul>
         </div>
-        <div class="flex justify-between items-center px-24 mb-16">
+        <div class="md:flex-row items-c gap-4 flex justify-between  px-24 mb-16 flex-col">
             <a href="{{ switchPage('prev', $comic, $comics_number) }}"
                 class="uppercase text-xs cursor-pointer bg-blue-500 py-3 hover:bg-blue-600 transition-colors duration-300 px-14 rounded font-bold text-white">
                 Vai indietro

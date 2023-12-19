@@ -15,9 +15,12 @@ class ComicController extends Controller
 
     public function show(Comic $comic)
     {
+
         $comics_number = Comic::count();
         return view("guest.show", compact("comic", "comics_number"));
     }
+
+
 
     public function create()
     {
