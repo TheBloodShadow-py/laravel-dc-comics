@@ -44,7 +44,7 @@
                 </li>
                 <li>
                     <span class="font-bold  text-emerald-400">Prezzo = </span>
-                    {{ $comic->price }}
+                    {{ $comic->price }}$
                 </li>
             </ul>
         </div>
