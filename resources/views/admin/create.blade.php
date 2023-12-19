@@ -9,27 +9,27 @@
                 <div class="flex flex-col gap-6">
                     <div class="flex items-center gap-4">
                         <input placeholder="Titolo" name="title"
-                            class="rounded focus-within:outline-none focus-visible:outline-none py-3 px-4 text-xs text-emerald-400"
+                            class="rounded w-[300px] focus-within:outline-none focus-visible:outline-none py-3 px-4 text-xs text-emerald-400"
                             type="text">
                     </div>
                     <div class="flex items-center gap-4">
                         <input placeholder="Descrizione" name="description"
-                            class="rounded focus-within:outline-none focus-visible:outline-none py-3 px-4 text-xs text-emerald-400"
+                            class="rounded w-[300px] focus-within:outline-none focus-visible:outline-none py-3 px-4 text-xs text-emerald-400"
                             type="text">
                     </div>
                     <div class="flex items-center gap-4">
                         <input placeholder="Link immagine" name="thumb"
-                            class="rounded focus-within:outline-none focus-visible:outline-none py-3 px-4 text-xs text-emerald-400"
+                            class="rounded w-[300px] focus-within:outline-none focus-visible:outline-none py-3 px-4 text-xs text-emerald-400"
                             type="text">
                     </div>
                     <div class="flex items-center gap-4">
-                        <input placeholder="prezzo" name="price"
-                            class="rounded focus-within:outline-none focus-visible:outline-none py-3 px-4 text-xs text-emerald-400"
+                        <input placeholder="Prezzo" name="price"
+                            class="rounded w-[300px] focus-within:outline-none focus-visible:outline-none py-3 px-4 text-xs text-emerald-400"
                             type="text">
                     </div>
                     <div class="flex items-center gap-4">
-                        <input placeholder="serie" name="series"
-                            class="rounded focus-within:outline-none focus-visible:outline-none py-3 px-4 text-xs text-emerald-400"
+                        <input placeholder="Serie" name="series"
+                            class="rounded w-[300px] focus-within:outline-none focus-visible:outline-none py-3 px-4 text-xs text-emerald-400"
                             type="text">
                     </div>
                     <button
